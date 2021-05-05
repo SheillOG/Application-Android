@@ -8,26 +8,41 @@
 
     <Button
         android:id="@+id/accueil_boutton_apropos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="309dp"
+        android:layout_height="40dp"
         android:onClick="onClick"
         android:text="@string/a_propos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
 
     <Button
-        android:id="@+id/accueil_boutton_user"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/accueil_boutton_categorie"
+        android:layout_width="308dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="11dp"
         android:onClick="onClick"
-        android:text="@string/User"
+        android:text="@string/Categorie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintVertical_bias="0.296" />
+
+    <Button
+        android:id="@+id/accueil_boutton_user"
+        android:layout_width="301dp"
+        android:layout_height="40dp"
+        android:onClick="onClick"
+        android:text="@string/User"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
 
     <TextView
         android:id="@+id/textView"
@@ -36,24 +51,8 @@
         android:text="@string/Bienvenue"
         app:layout_constraintBottom_toTopOf="@+id/accueil_boutton_apropos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.681" />
-
-    <Button
-        android:id="@+id/accueil_boutton_categorie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="121dp"
-        android:layout_marginTop="11dp"
-        android:onClick="onClick"
-        android:text="@string/Categorie"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.382" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
